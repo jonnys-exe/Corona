@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="675.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.newsController">
+    <children>
+        <Label alignment="CENTER" prefHeight="71.0" prefWidth="1200.0" style="-fx-background-color: white;" text="Экстренные Новости о Covid-19  ">
+            <font>
+                <Font name="Times New Roman" size="72.0" />
+            </font>
+        </Label>
+        <AnchorPane layoutY="70.0" prefHeight="605.0" prefWidth="1200.0" style="-fx-background-color: #2e2929;">
+         <children>
+            <TabPane layoutY="-4.0" prefHeight="624.0" prefWidth="1202.0" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab text="1">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="285.0" prefWidth="748.0">
+                           <children>
+                              <SplitPane dividerPositions="0.997504159733777" layoutX="-1.0" prefHeight="596.0" prefWidth="1204.0">
+                                <items>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="594.0" prefWidth="579.0">
+                                       <children>
+                                          <ImageView fitHeight="594.0" fitWidth="1153.0" layoutX="63.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@Uorren.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </AnchorPane>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                       <children>
+                                          <ImageView fitHeight="594.0" fitWidth="1208.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@newsUorren.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </AnchorPane>
+                                </items>
+                              </SplitPane>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+                <Tab text="2">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <SplitPane dividerPositions="0.9975" layoutX="-1.0" prefHeight="598.0" prefWidth="1202.0">
+                                <items>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="596.0" prefWidth="20.0">
+                                       <children>
+                                          <ImageView fitHeight="595.0" fitWidth="1344.0" layoutX="2.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@Novie.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </AnchorPane>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="596.0" prefWidth="833.0">
+                                       <children>
+                                          <ImageView fitHeight="582.0" fitWidth="970.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@news365.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </AnchorPane>
+                                </items>
+                              </SplitPane>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+                  <Tab text="3">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <SplitPane dividerPositions="0.9975" prefHeight="600.0" prefWidth="1202.0">
+                                <items>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                       <children>
+                                          <ImageView fitHeight="598.0" fitWidth="1190.0" layoutX="11.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="122.0" AnchorPane.rightAnchor="122.0">
+                                             <image>
+                                                <Image url="@kitai.jpg" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </AnchorPane>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="598.0" prefWidth="107.0">
+                                       <children>
+                                          <ImageView fitHeight="626.0" fitWidth="1141.0" layoutX="14.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@newsKitai.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </AnchorPane>
+                                </items>
+                              </SplitPane>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="4">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <SplitPane dividerPositions="0.9975" layoutX="-1.0" prefHeight="598.0" prefWidth="1202.0">
+                                <items>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                       <children>
+                                          <ImageView fitHeight="594.0" fitWidth="1075.0" layoutX="2.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@risk.jpg" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </AnchorPane>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                       <children>
+                                          <ImageView fitHeight="589.0" fitWidth="1203.0" layoutX="110.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@newsrisk.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </AnchorPane>
+                                </items>
+                              </SplitPane>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+              </tabs>
+            </TabPane>
+         </children>
+        </AnchorPane>
+        <ToolBar prefHeight="31.0" prefWidth="57.0" style="-fx-background-color: white;">
+            <items>
+                <Button fx:id="BackButton" mnemonicParsing="false" text="Back" />
+            </items>
+        </ToolBar>
+    </children>
+</AnchorPane>
